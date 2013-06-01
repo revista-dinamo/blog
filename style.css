@@ -1,0 +1,691 @@
+	/*  
+	Theme Name: Revista Dinamo Theme
+	Theme URI: http://www.revistadinamo.com/
+	Description: Official theme for Revista Dinamo.
+	Author: Carolina Merlo - Gonzalo Espinosa
+	Author URI: http://www.revistadinamo.com/
+	Version: 1.0
+	Tags: green, violet, orange, white, two-column, right-sidebar, home-screen 
+	.
+	Your theme can be your copyrighted work.
+	Like WordPress, this work is released under GNU General Public License, version 2 (GPL).
+	http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+	.
+	*/
+
+	/* General styling: */
+	* {
+		margin:0px;
+		padding:0px;
+	}
+
+	body {
+		width:944px;
+		margin:auto;
+		font-family: Arial;
+		font-size: 12px;
+	}
+
+	body a {
+		color:#FF004E;
+		text-decoration:none;
+	}
+
+	img {
+		border:0;
+	}
+
+	/* Sidebar */
+	.follow-us {
+		position:relative;
+		width:100%;
+		height:94px;
+		background-color:#FF004E;
+	}
+
+	.icon {
+		position:absolute;
+		top:23px;
+		width:65px;
+		height:65px;
+		display:block;
+		top:16px;
+	}
+
+	.icon:hover {
+		background-position:0 65px;	
+	}
+
+	.facebook {
+		right:97px;
+		background-image:url("images/facebook_home.png");
+	}
+	
+	.twitter {
+		right:178px;
+		background-image:url("images/twitter_home.png");
+	}
+
+	.rss {
+		right:16px;
+		background-image:url("images/rss_home.png");
+	}
+
+	.archive h2 {
+		text-align:left;
+		font-size:22px;
+	}
+
+	.archive .post {
+		margin-bottom:30px;
+		width:480px;
+	}
+
+	.hidden {
+		display:none;
+	}
+
+	.float-left {
+		float:left;
+	}
+
+	.clear {
+		clear:both;
+	}
+
+
+	#branding {
+		width:100%;
+		height:353px;
+		display:block;
+		background-image:url("images/headers/header.jpg");
+	}
+
+
+	#sidebar {
+		margin-top:50px;
+		width:325px;
+		height:1425px;	
+		background:#FF7200;
+		float:left;
+		position:relative;
+	}
+
+	.sidebar-area li {
+		list-style-type:none;	
+	}
+
+	.widget-container {
+		text-align:right;
+		margin-right:10px;
+		position:relative;
+	}
+	
+	.widget-title {
+		margin-top:20px;
+		position:relative;
+		font-style:italic;
+	}
+	
+	.widget-container li {
+		margin-top:10px;
+		width:200px;
+		margin-left:115px;
+	}
+
+	.access {
+		height:88px;
+		position:relative;
+	}
+
+	.access .menu {
+		left:0px;
+		border-bottom: 1px solid;
+		margin: 0 auto;
+		top:50px;
+		position: absolute;
+	}
+
+	.access .menu a {
+		text-decoration:none;
+		display: block;
+		float:left;
+		width:105px;
+		height:20px;
+		padding-top:5px;
+		text-align:center;
+		font-family:Arial;
+		font-size:12px;
+		color:#000000;
+	}
+
+	.access .menu a:hover {
+		background:#000000;
+		color:#FFFFFF;
+	}
+	
+	/* Plan Dinamo */
+	.plan-dinamo {
+		position:relative;
+		width:100%;
+		height:386px;
+		background-color:#FF7200;
+		background-image:url("images/plandinamo.png");
+		background-position: 17px 320px;
+		background-repeat: no-repeat;
+	}
+
+	.plan-dinamo .object-view {
+		position:absolute;
+		overflow:hidden;
+		width:294px;
+		height:356px;
+		margin-left: 16px;
+		margin-top: 16px;
+	}
+
+	.plan-dinamo .object {
+		float:left;
+		width:294px;
+		height:356px;
+		position:relative;
+	}
+
+	.plan-dinamo .object .desc {
+		position:absolute;
+		width: 135px;
+		height:100px;
+		bottom:0px;
+		right:0px;
+	}
+	
+	.plan-dinamo .object-view .next {
+		cursor: pointer;
+		font-size: 30px;
+		font-weight: bold;
+		left: 0;
+		position: absolute;
+		top: 250px;
+		z-index: 1;
+	}
+
+	.plan-dinamo .object .desc a {
+		color:#000000;
+	}
+
+	.plan-dinamo .object img {
+		width:auto;
+		max-width:293px;
+		height:auto;
+		max-height:239px;
+	}
+	/* fin Plan Dinamo */
+
+	/* Index screen:*/
+	#container {
+		width:619px;
+		float:left;
+		position:relative;
+		margin-top:50px;
+	}
+
+	#content {
+		position:relative;
+		width:100%;
+	}
+
+	.home-post {
+		background-position: center center;
+		float:left;
+		position:relative;
+		overflow:hidden;
+	}
+
+	.home-1 {
+		width:480px;
+		height:368px;	
+		margin-left:0px;
+	}
+
+	.home-2 {
+		margin-left:0px;
+	}
+
+	.home-3 {
+		margin-left:140px;
+	}
+
+	.home-2,.home-3 {
+		margin-top:40px;
+		width:170px;
+		height:257px;
+		/* Firefox */
+		-moz-background-size: auto 257px;
+		/* WebKit */
+		-webkit-background-size: auto 257px;
+		/* Opera 9.5+, later Google Chrome */
+		background-size: auto 257px;
+	}
+
+	.home-4 {
+		margin-left:0px;
+	}
+
+	.home-5 {
+		margin-left:30px;
+	}
+
+	.home-6 {
+		margin-left:30px;
+	}
+
+	.home-4,.home-5,.home-6 {
+		margin-top:130px;
+		width:141px;
+		height:200px;	
+		/* Firefox */
+		-moz-background-size: auto 200px;
+		/* WebKit */
+		-webkit-background-size: auto 200px;
+		/* Opera 9.5+, later Google Chrome */
+		background-size: auto 200px;
+	}
+
+	.home-post-over {
+		position:absolute;
+		bottom:0px;
+		width:100%;
+		height:30%;
+		background-color:#000000;	
+		color:#FFFFFF;
+	}
+
+	.boxgrid {
+		float:left;
+		background:#161613;
+		overflow: hidden;
+		position: relative;
+	}
+
+	.boxgrid .bg-img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		border: 0;
+	}
+
+	.boxcaption {
+		float: left;
+		position: absolute;
+		background: #000;
+		height: 100%;
+		width: 100%;
+		opacity: .8;
+		/* For IE 5-7 */
+		filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+		/* For IE 8 */
+		-MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+		}
+
+	.captionfull .boxcaption {
+		top: 260;
+		left: 0;
+	}
+
+	.caption .boxcaption {
+		top: 220;
+		left: 0;
+	}
+
+
+	/* Macros de Oliverio */
+	#macros-container {
+		padding-top:70px;
+	}
+
+	#home-macros {
+		width:480px;
+		height:370px;
+		background-color:#FF004E;
+		background-image:url("images/macrosdeoliverio.png");
+		background-position: 17px 305px;
+		background-repeat: no-repeat;
+		position:relative;
+	}
+
+	#macros-prev-1 {
+		position:absolute;
+		top:32px;
+		left:16px;
+		width:138px;
+		height:113px;
+		overflow:hidden;
+	}
+	
+	#macros-prev-2 {
+		position:absolute;
+		top:154px;
+		left:16px;
+		width:138px;
+		height:113px;
+		overflow:hidden;
+	}
+
+	#macros-prev {
+		position:absolute;
+		top:32px;
+		left:160px;
+		width:295px;
+		height:250px;
+		overflow:hidden;
+	}
+	
+	#macros-prev img {
+		width:295px;
+	}
+	
+	#macros-prev-1 img, #macros-prev-2 img {
+		width:138px;
+	}
+	
+	.primary-widget-area {
+		width:100%;
+		min-height:515px;
+		background-color:#FF004E;
+		background-image:url("images/buzos.png");
+		background-position: 1px 374px;
+		background-repeat: no-repeat;
+		position:relative;
+	}
+
+	.primary-widget-area a {
+		color:#000000;
+	}
+
+	.secondary-widget-area {
+		width: 100%;
+		min-height: 440px;
+		background-color: #5CBF59;
+	}
+
+	.caption .caption-title {
+		font-family:Georgia;
+		font-size:24px;
+		color:#FF004E;
+		font-style:italic;
+		text-align:center;
+		font-weight:normal;
+		padding:3px;
+	}
+
+	.caption .caption-text {
+		font-family:Arial;
+		font-size:11px;
+		color:#FFFFFF;
+		font-weight:normal;
+		padding:5px;
+	}
+
+	.home-2.caption .caption-title, .home-3.caption .caption-title {
+		font-size:14px;
+	}
+
+	.home-4.caption .caption-title, .home-5.caption .caption-title, .home-6.caption .caption-title {
+		font-size:12px;
+	}
+
+	.home-1.caption .caption-text {
+		font-size:16px;
+		padding:10%;
+	}
+	
+	.home-2.caption .caption-text, .home-3.caption .caption-text {
+		font-size:12px;
+		padding:7%;
+	}
+
+	.home-4.caption .caption-text, .home-5.caption .caption-text, .home-6.caption .caption-text {
+		font-size:11px;
+	}
+
+	.caption-title-table {
+		height:32%;
+	}
+
+	.caption-text-table {
+		height:68%;
+	}
+
+	.caption-table {
+		width:100%;
+	}
+
+	.caption-table tr {
+		vertical-align:middle;
+	}
+	
+	.cover {
+		top:68%;
+	}
+
+	/* Single Post styles */
+	.sharing-options {
+		position:relative;
+		width:100%;
+		height:72px;	
+	}
+	
+	.twitter-share-button {
+		position:absolute;
+		right:0px;
+		top:-10px;
+	}
+	
+	.st_plusone_large {
+		position:absolute;
+		left:0px;
+		bottom:0px;
+	}
+	
+	.share_buttons_bottom {
+		text-align: center;
+	}
+		
+	.entry {
+		width: 480px;	
+		font-family: Arial;
+		font-size: 12px;
+	}
+
+	.entry-label {
+		border-bottom: 1px solid;
+		font-size: 14px;
+		font-style: italic;
+		margin-bottom:15px;
+	}
+
+	.entry-category {
+		position:relative;
+		width:100%;
+	}
+
+	.entry-title {
+		width:100%;
+		color: #FF004E;
+		font-family: Georgia;
+		font-size: 30px;
+		font-weight: bold;
+		position: relative;
+		text-align: center;
+	}
+
+	.entry-label a {
+		color: #000000;
+	}
+
+	.entry-content {
+		padding: 16px;
+		position: relative;
+		width: 448px;
+	}
+
+	.entry-content p {
+		margin-bottom:25px;
+	}
+
+	.entry-content img {
+		max-width:480px;
+		height:auto;
+		margin-left: -16px;
+	}
+
+	.comment-container {
+		width:448px;
+		min-height:392px;
+		background-color:#FFA359;
+		padding:16px;
+	}
+
+	.comment-container a {
+		color:#FFFFFF;
+		font-weight:bold;
+	}
+	
+	.comment-container h3 {
+		display:none;
+	}
+
+	.comment-container li {
+		list-style: none outside none;	
+		margin-bottom: 15px;
+	}
+
+	.comment-container li img {
+		width:32px;
+		height:32px;
+	}
+
+	.page-header {
+		height:100px;
+		background-color:#FF7200;
+		padding-top:10px;
+	}
+
+	.page-header-title {
+		width:430px;
+		margin-left:16px;
+		border-bottom:1px solid #000000;
+		font-size: 16px;
+		margin-top: 25px;
+	}
+
+	.quienes-somos h1 {
+		font-family:Georgia;
+		font-size:13px;
+		font-weight:bold;
+		margin-top: 20px;
+	}
+
+	.quienes-somos h2 {
+		font-family:Georgia;
+		font-size:13px;
+		font-style:italic;
+		font-weight:normal;
+	}
+
+	.profile {
+		margin-top:20px;
+	}
+
+	.profile-pic {
+		width:170px;
+		height:257px;
+		float:left;
+	}
+
+	.profile-text {
+		float:left;
+		padding-left:25px;
+		padding-top:16px;
+		width:300px;
+	}
+
+	.contacto-container {
+		width:912px;
+		height:405px;
+		background-color:#FFA359;
+		padding:16px;
+		margin-top:35px;
+	}
+
+	.contacto-container input {
+		margin-bottom:10px;
+	}
+
+	.contacto-container textarea {
+		width:100%;
+		height:300px;
+	}
+
+	.contacto-container .button {
+		margin-top: 10px;
+		width: 80px;
+	}
+
+	.contacto .page-header-title {
+		margin-top:25px;
+		margin-left:0px;
+		margin-bottom:35px;
+	}
+	
+
+	.section-post {
+		position:relative;
+		margin-bottom:40px;
+	}
+	
+	.section-bg-image {
+		width:170px;
+		height:257px;
+		background-position: -82px;
+		/* Firefox */
+		-moz-background-size: auto 257px;
+		/* WebKit */
+		-webkit-background-size: auto 257px;
+		/* Opera 9.5+, later Google Chrome */
+		background-size: auto 257px;
+		float:left;
+		position:relative;
+	}
+	
+	.section-content {
+		margin-left: 40px;
+		position: relative;
+		margin-top: 20px;
+		width: 330px;
+		float:left;
+	}
+	
+	.section-content .sc-info {
+		margin-top: 5px;
+	}
+	
+	.section-content .sc-content {
+		margin-top: 5px;
+	}
+
+	.section-content .sc-title a {
+		color:#000000;
+	}
+		
+	.section-content .sc-title {
+		font-family: Georgia;
+		font-size: 14px;
+		font-style: italic;
+		text-align: center;
+	}
+	
+	.section-content .sc-footer {
+		margin-top: 5px;
+	}
+	
