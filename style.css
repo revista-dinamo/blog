@@ -387,7 +387,30 @@
 	#macros-prev-1 img, #macros-prev-2 img {
 		width:138px;
 	}
-	
+
+	/*Gallery*/
+	#gallery-container {
+		padding-top:70px;
+	}
+
+	#home-gallery {
+		width:480px;
+		height:370px;
+		background-color:#FF004E;
+		background-image:url("images/galeria.png");
+		background-position: 17px 305px;
+		background-repeat: no-repeat;
+		position:relative;
+	}
+
+	#gallery {
+		position:absolute;
+		left:16px;
+		top:32px;
+		height:250px;
+		width:449px;
+	}
+
 	.primary-widget-area {
 		width:100%;
 		min-height:515px;

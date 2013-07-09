@@ -55,7 +55,7 @@
 		
 		<div style='clear:both'></div>
 
-		<?php include "modules/macros.php"; ?>
+		<?php include "modules/gallery.php"; ?>
 
 	</div>
 
