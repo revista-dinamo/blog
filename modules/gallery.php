@@ -11,7 +11,8 @@
 
 	var gallery = jQuery('#gallery').flickrshow({
 		autoplay:true,
-		interval:5000,
+		hide_buttons:true,
+		interval:10000,
 		set:'72157634567679963',
 	});
 
