@@ -1,6 +1,6 @@
 <div id="gallery-container">
 	<div id="home-gallery">
-		<a href="http://www.flickr.com/photos/revistadinamo/" target="_blank">
+		<a href="http://www.flickr.com/photos/revistadinamo/sets/72157634567679963/" target="_blank">
 		<div id="gallery"></div>
 		</a>
 	</div>
