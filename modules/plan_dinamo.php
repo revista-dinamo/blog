@@ -6,7 +6,6 @@ $sidebar_posts = get_posts( array(
 ?>
 <div class="plan-dinamo">
 	<div class="object-view">
-	<span class="next" id="click_next">>></span>
 		<div id="slide" style="height:100%; width:<?=SIDEBAR_PREVIEW_WIDTH*SIDEBAR_COUNT_PREVIEWS?>px">
 			<?php foreach( $sidebar_posts as $sidebar_post ) { ?>
 				<div class="object">
@@ -32,6 +31,7 @@ $sidebar_posts = get_posts( array(
 
 		jQuery('#slide').animate({
 			marginLeft: margint,
+			easing: "easein"
 			}, 600, function() {
 			// Animation complete.
 		});
