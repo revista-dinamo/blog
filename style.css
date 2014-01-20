@@ -24,6 +24,7 @@
 		margin:auto;
 		font-family: Arial;
 		font-size: 12px;
+		background-image:url("images/backgrounds/pattern.png");
 	}
 
 	body a {
@@ -33,6 +34,9 @@
 
 	img {
 		border:0;
+	}
+
+	#wrapper {
 	}
 
 	/* Sidebar */
